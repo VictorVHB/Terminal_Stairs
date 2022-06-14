@@ -12,3 +12,12 @@ def Escada(Tamanho = 1):
 
 Tamanho = int(input("Qual o tamanho da escada ? "))
 Escada(Tamanho)
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+def Escada(degraus):
+    i = 1
+    while i < degraus:
+        print("#" * i)
+        i += 1
+
+Escada(15)
