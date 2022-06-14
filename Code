@@ -1,0 +1,14 @@
+def Escada(Tamanho = 1):
+    Simbolo = str(input("Qual símbolo deseja utilizar ? "))
+    Inicio = Simbolo
+    i = 0
+    
+    while i < Tamanho:
+        print(Inicio)
+        Inicio += Simbolo
+        i += 1
+    
+    return Simbolo
+
+Tamanho = int(input("Qual o tamanho da escada ? "))
+Escada(Tamanho)
